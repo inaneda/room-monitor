@@ -8,20 +8,39 @@
 #include <avr/io.h>
 #include <util/delay.h>
 #include "gpio.h"
+#include "adc.h"
+#include "uart.h"
+
+#define BAUD 9600
+#define UBRR_VAL (F_CPU/16/BAUD - 1)
 
 int main(void) {
 	gpio_init();
+	adc_init();
+	uart_init(UBRR_VAL);
+
+	uint16_t ldr_val, mq135_val;
 
 	while (1) {
-		led_set(0, 0, 1);   // yeþil
-		_delay_ms(1000);
-		led_set(0, 1, 0);   // sarý
-		_delay_ms(1000);
-		led_set(1, 0, 0);   // kýrmýzý + buzzer
-		buzzer_on();
-		_delay_ms(1000);
-		buzzer_off();
-		led_set(0, 0, 0);
+		ldr_val   = adc_read(ADC_LDR);
+		mq135_val = adc_read(ADC_MQ135);
+
+		uart_send_string("LDR: ");
+		uart_send_uint16(ldr_val);
+		uart_send_string(" | MQ135: ");
+		uart_send_uint16(mq135_val);
+		uart_send_string("\r\n");
+
+		if (ldr_val < 512) {
+			led_set(0, 0, 1);
+			} else {
+			led_set(1, 0, 0);
+		}
+
+		if (mq135_val > 700) {
+			buzzer_on();
+		}
+
 		_delay_ms(500);
 	}
 }
