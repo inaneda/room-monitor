@@ -240,9 +240,9 @@ int main(void) {
  12c:	87 e6       	ldi	r24, 0x67	; 103
  12e:	90 e0       	ldi	r25, 0x00	; 0
  130:	0e 94 d1 00 	call	0x1a2	; 0x1a2 <uart_init>
-
+	
 	uint16_t ldr_val, mq135_val;
-
+	
 	while (1) {
 		ldr_val   = adc_read(ADC_LDR);
  134:	80 e0       	ldi	r24, 0x00	; 0
@@ -252,7 +252,7 @@ int main(void) {
  13c:	81 e0       	ldi	r24, 0x01	; 1
  13e:	0e 94 52 00 	call	0xa4	; 0xa4 <adc_read>
  142:	ec 01       	movw	r28, r24
-
+		
 		uart_send_string("LDR: ");
  144:	80 e0       	ldi	r24, 0x00	; 0
  146:	91 e0       	ldi	r25, 0x01	; 1
@@ -271,7 +271,7 @@ int main(void) {
  160:	81 e1       	ldi	r24, 0x11	; 17
  162:	91 e0       	ldi	r25, 0x01	; 1
  164:	0e 94 e4 00 	call	0x1c8	; 0x1c8 <uart_send_string>
-
+		
 		if (ldr_val < 512) {
  168:	01 15       	cp	r16, r1
  16a:	12 40       	sbci	r17, 0x02	; 2
@@ -289,7 +289,7 @@ int main(void) {
  17e:	81 e0       	ldi	r24, 0x01	; 1
  180:	0e 94 6f 00 	call	0xde	; 0xde <led_set>
 		}
-
+		
 		if (mq135_val > 700) {
  184:	cd 3b       	cpi	r28, 0xBD	; 189
  186:	d2 40       	sbci	r29, 0x02	; 2
