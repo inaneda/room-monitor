@@ -127,6 +127,12 @@
     <Compile Include="adc.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="bme280.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="bme280.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="gpio.c">
       <SubType>compile</SubType>
     </Compile>

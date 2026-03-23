@@ -4,6 +4,8 @@
 
 adc.c
 
+bme280.c
+
 gpio.c
 
 i2c.c
