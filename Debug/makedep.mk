@@ -6,6 +6,10 @@ adc.c
 
 gpio.c
 
+i2c.c
+
+lcd.c
+
 main.c
 
 uart.c

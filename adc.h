@@ -11,11 +11,11 @@
 
 #include <avr/io.h>
 
-// Kanal tanimlari
+// kanal tanimlari
 #define ADC_LDR     0   // A0
 #define ADC_MQ135   1   // A1
 
-// Fonksiyon prototipleri
+// fonksiyonlar
 void adc_init(void);
 uint16_t adc_read(uint8_t channel);
 
