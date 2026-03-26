@@ -133,6 +133,12 @@
     <Compile Include="bme280.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="ds1307.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="ds1307.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="gpio.c">
       <SubType>compile</SubType>
     </Compile>
