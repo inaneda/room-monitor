@@ -124,8 +124,8 @@ ELE-495-cnc-pick-place/
 ### Run the Application
 ```bash
 # 1. Clone the repository
-git clone https://github.com/inaneda/ELE-495-cnc-pick-place.git
-cd ELE-495-cnc-pick-place
+git clone https://github.com/ELE495-2526Spring/capstoneproject-grup-4.git
+cd capstoneproject-grup-4
 
 # 2. Start the camera server on the host (separate terminal)
 python3 app/camera_server.py
@@ -182,10 +182,10 @@ vacuum pick → vision check → test station → measure
 
 | Contributor | Role |
 |---|---|
-| Eda İnan | Web interface, backend, computer vision |
+| Ayşenur Kurt | Image processing, dataset preparation |
+| Eda İnan | Web interface, backend | [@inaneda](https://github.com/inaneda) |
 | Mustafa Buğrahan Özgün | Mechanical design, GRBL integration |
 | Mert Şenel | Test station design and firmware |
-| Ayşenur Kurt | Image processing, dataset preparation |
 | Prof. Dr. Bülent Tavlı | Project supervisor, TOBB ETÜ |
 
 | Resource | Link |
