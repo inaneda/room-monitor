@@ -186,7 +186,11 @@ vacuum pick → vision check → test station → measure
 | Eda İnan | Web interface, backend | [@inaneda](https://github.com/inaneda) |
 | Mustafa Buğrahan Özgün | Mechanical design, GRBL integration |
 | Mert Şenel | Test station design and firmware |
-| Prof. Dr. Bülent Tavlı | Project supervisor, TOBB ETÜ |
+
+### Supervisor
+
+Prof. Dr. Bülent Tavlı — TOBB University of Economics and Technology
+
 
 | Resource | Link |
 |---|---|
