@@ -180,8 +180,8 @@ vacuum pick → vision check → test station → measure
 
 ## Acknowledgements
 
-| Contributor | Role |
-|---|---|
+| Contributor | Role | GitHub |
+|---|---|---|
 | Ayşenur Kurt | Image processing, dataset preparation |
 | Eda İnan | Web interface, backend | [@inaneda](https://github.com/inaneda) |
 | Mustafa Buğrahan Özgün | Mechanical design, GRBL integration |
