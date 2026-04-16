@@ -13,6 +13,8 @@
 
 #define LCD_ADDR 0x27  // I2C adresi (0x3F de olabilir)
 
+void lcd_send_char(char c);
+
 void lcd_init(void);
 void lcd_clear(void);
 void lcd_set_cursor(uint8_t row, uint8_t col);
