@@ -52,7 +52,7 @@ Bu proje, TOBB ETÜ ELE362 Mikrodenetleyiciler dersi kapsamında geliştirilmiş
 | MQ135 | Hava kalitesi sensörü | ADC - A1 |
 | LED (K/S/Y) | Durum göstergesi | GPIO - D5/D6/D7 |
 | Buzzer | Sesli uyarı | GPIO - PB1 |
-| ESP32-WROOM-32D | WiFi modülü | UART — D0/D1 |
+| ESP32-WROOM-32D | WiFi modülü | UART - D0/D1 |
 
 ### Gerekli Ekstra Bileşenler
 
