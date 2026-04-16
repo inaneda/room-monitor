@@ -141,9 +141,13 @@ Sistem açıldığında:
 ### ThingSpeak Kanal Verileri
 
 ![ThingSpeak - MQ135](images/thingspeak(1).png)
+
 ![ThingSpeak - LDR](images/thingspeak(2).png)
+
 ![ThingSpeak - Pressure](images/thingspeak(3).png)
+
 ![ThingSpeak - Humidity](images/thingspeak(4).png)
+
 ![ThingSpeak - Temperature](images/thingspeak(5).png)
 
 ---
