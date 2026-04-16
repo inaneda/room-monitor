@@ -18,7 +18,7 @@ ATmega328P mikrodenetleyicisi kullanılarak geliştirilmiş çok sensörlü orta
 
 ## Proje Hakkında
 
-Bu proje, TOBB ETÜ ELE362/BIL362 Mikrodenetleyiciler dersi kapsamında geliştirilmiştir. Atmel Studio 7 kullanılarak register düzeyinde C ile yazılmıştır. Arduino kütüphanesi kullanılmamıştır.
+Bu proje, TOBB ETÜ ELE362 Mikrodenetleyiciler dersi kapsamında geliştirilmiştir. Atmel Studio 7 kullanılarak register düzeyinde C ile yazılmıştır. Arduino kütüphanesi kullanılmamıştır.
 
 ---
 
