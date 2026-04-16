@@ -140,20 +140,11 @@ Sistem açıldığında:
 
 ### ThingSpeak Kanal Verileri
 
-![Sıcaklık](images/thingspeak1.png)
-*Alan 1 — Sıcaklık (°C)*
-
-![Nem](images/thingspeak2.png)
-*Alan 2 — Nem (%)*
-
-![Basınç](images/thingspeak3.png)
-*Alan 3 — Basınç (hPa)*
-
-![Işık](images/thingspeak4.png)
-*Alan 4 — Işık (ADC)*
-
-![Hava Kalitesi](images/thingspeak5.png)
-*Alan 5 — Hava Kalitesi (ADC)*
+![ThingSpeak - MQ135](images/thingspeak(1).png)
+![ThingSpeak - LDR](images/thingspeak(2).png)
+![ThingSpeak - Pressure](images/thingspeak(3).png)
+![ThingSpeak - Humidity](images/thingspeak(4).png)
+![ThingSpeak - Temperature](images/thingspeak(5).png)
 
 ---
 
